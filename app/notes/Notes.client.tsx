@@ -11,7 +11,7 @@ import css from "./Notes.module.css";
 import NoteList from "../../components/NoteList/NoteList";
 import SearchBox from "../../components/SearchBox/SearchBox";
 import NoteForm from "../../components/NoteForm/NoteForm";
-import Loader from "../../app/Loader";
+import Loader from "../Loading";
 import ErrorMessage from "../../components/ErrorMessage";
 import Pagination from "../../components/Pagination/Pagination";
 // import Modal from "../../components/Modal/Modal";
