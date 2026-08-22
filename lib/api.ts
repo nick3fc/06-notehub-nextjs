@@ -42,7 +42,7 @@ export async function fetchNotes(
 
 // ------------------------------------------------------------
 
-export async function getSingleNote(id: string): Promise<Note> {
+export async function fetchNoteById(id: string): Promise<Note> {
   console.log("deleteNote called", id);
   const response = await axios.get<Note>(`${apiBaseUrl}/notes/${id}`, {
     headers: {
