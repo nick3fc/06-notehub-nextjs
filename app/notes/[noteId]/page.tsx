@@ -1,4 +1,3 @@
-
 // ------------------------------------------------------------
 
 export default function Note() {
@@ -61,5 +60,6 @@ export default function Note() {
     //     </Modal>
     //   )}
     // </div>
+    null
   );
 }
